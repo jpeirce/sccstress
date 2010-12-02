@@ -1,0 +1,34 @@
+INSTALL
+=======
+
+See the INSTALL file for generic installation instructions.  The quick
+version is:
+
+  ./configure && make && sudo make install
+
+USAGE
+=====
+
+You can see the program's usage statement by invoking it with --help.  A
+typical invocation is:
+
+ sccstress --cpu 8 --io 4 --vm 2 --vm-bytes 128M --timeout 10s
+
+A user manual is available:
+
+ info sccstress
+
+The project home page is:
+
+ https://github.com/jpeirce/sccstress/ 
+
+PATCHES
+=======
+
+The extensions I made to the original stress program are probably very poorly coded, but the work for what I need it to work for. If you make some changes I would very much like to see them. Please send patches via email or make a git commit. 
+
+The original maintainer of the stress program was Amos Waterland, the original homepage was http://weather.ou.edu/~apw/projects/stress/
+
+Jack Peirce <jpeirce@sourcecode.com>
+Boston, MA
+December, 2010
